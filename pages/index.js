@@ -26,7 +26,7 @@ export default function Auth() {
     <div className="background">
       <div className="auth-container">
         <form className="auth-form" onSubmit={onSubmit}>
-          <div className="auth-title">Next JS Chat</div>
+          <div className="auth-title">Welcome to CampLit</div>
           <div className="input-container">
             <input
               placeholder="Email"
