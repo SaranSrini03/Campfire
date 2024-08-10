@@ -66,6 +66,10 @@
 .ce-chat-feed-container::-webkit-scrollbar-track {
   background: var(--orange); /* Track color */
 }
+.ce-feed-chat-container::-webkit-scrollbar-thumb {
+  background: red; /* Handle color */
+  border-radius: 10px; /* Optional: Adds rounded corners to the handle */
+}
 
 .ce-primary-button {
   background-color: var(--black) !important;
