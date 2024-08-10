@@ -61,8 +61,10 @@
   background-color: var(--black)!important;
 }
 .ce-chat-feed-container::-webkit-scrollbar {
-  background-color: red;
+  background-color: var(--black); 
 }
+.ce-chat-container::-webkit-scrollbar {
+  background: var(--orange);}
 
 
 .ce-primary-button {
