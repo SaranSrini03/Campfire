@@ -63,9 +63,9 @@
 .ce-chat-feed-container::-webkit-scrollbar {
   background-color: var(--black); 
 }
-.ce-chat-container::-webkit-scrollbar {
-  background-color: var(--orange);}
-
+.ce-chat-feed-container::-webkit-scrollbar-track {
+  background: var(--orange); /* Track color */
+}
 
 .ce-primary-button {
   background-color: var(--black) !important;
