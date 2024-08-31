@@ -16,7 +16,7 @@ export default function Auth() {
       .put(
         'https://api.chatengine.io/users/',
         { username, secret },
-        { headers: { "Private-key": '3fef66e4-cab6-4a8c-a97c-c1e57005f314' } }
+        { headers: { "Private-key": 'db5df118-8174-46df-b3df-e8439941b796' } }
       )
       .then(r => router.push("/chats"))
       .catch(error => console.error('Error updating user:', error));
